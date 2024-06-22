@@ -14,7 +14,7 @@ Current Date is : 2024-06-22
 
 ## Function definitions
 
-```
+```javascript
 function getCurrentDate(date) {
   
   const year = date.getFullYear();

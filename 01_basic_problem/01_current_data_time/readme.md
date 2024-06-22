@@ -14,7 +14,7 @@ Current time is : 10 PM : 30 : 38
 ```
 ### Function Definition
 
-```
+```javascript
 function displayDayAndTime(date = new Date()) {
   // Array of weekday names
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -51,12 +51,12 @@ function displayDayAndTime(date = new Date()) {
 
 Using Current Date and Time
 
-```
+```javascript
 displayDayAndTime();
 ```
 Using a Specific Date and Time
 
-```
+```javascript
 const specificDate = new Date('June 21, 2024 15:30:45');
 displayDayAndTime(specificDate);
 ```
